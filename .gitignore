@@ -1,0 +1,23 @@
+HELP.md
+.gradle
+build/
+!**/dev-bundle/webapp/VAADIN/build
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+# The following files are generated/updated by vaadin-gradle-plugin
+node_modules/
+webpack.generated.js
+target
+out
+pnpmfile.js
+.npmrc
+src/main/frontend/generated
